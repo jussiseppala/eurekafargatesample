@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eurekafargatesample
+server:
+  port: 8888
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://myuser:mypwd@100.100.100.100:80/eureka/
+  instance:
+    preferIpAddress: true
